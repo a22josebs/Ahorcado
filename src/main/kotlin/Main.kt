@@ -1,3 +1,4 @@
+import DibujoAhorcado.dibujar
 
 
 fun main(args: Array<String>) {
@@ -56,6 +57,7 @@ fun main(args: Array<String>) {
         }
         if(!acertada){
             fallos++
+            val dib = dibujar(fallos)
         }
         println(elegida)
         //println("asteriscos $asteriscos")
