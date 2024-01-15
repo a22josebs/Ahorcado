@@ -1,4 +1,10 @@
+
+
 fun main(args: Array<String>) {
+
+    val rm = ReproductorMidi("pugnodollari.mid")
+    println("    CARGANDO........")
+    Thread.sleep(10000)
 
     var flores: MutableList<String> = mutableListOf()
     flores.add("rosa")
@@ -63,6 +69,7 @@ fun main(args: Array<String>) {
     }else{
         println(" Lo siento has fallada, la flor era --> ${flores[rnd]}")
     }
-
+    Thread.sleep(4000)
+    rm.cerrar()
 
 }
