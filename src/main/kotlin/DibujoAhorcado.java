@@ -7,20 +7,25 @@ class DibujoAhorcado{
         String RESET = "\u001B[0m";
         String PURPLE = "\u001B[35m";
         String WHITE_BACKGROUND = "\u001B[47m";
+        String BLUE = "\u001B[34m";
+        String GREEN = "\u001B[32m";
 
 
 
         switch (i) {
             case 1:
+                System.out.println(BLUE);
                 System.out.println(" ---------------------");
                 for (int j = 0; j< 15; j++) {
                     System.out.println(" |");
 
                 }
                 System.out.println("__________");
+                System.out.println(RESET);
                 break;
 
             case 2:
+                System.out.println(BLUE);
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
                 System.out.println(" |                     |");
@@ -33,9 +38,11 @@ class DibujoAhorcado{
 
                 }
                 System.out.println("__________");
+                System.out.println(RESET);
                 break;
 
             case 3:
+                System.out.println(GREEN);
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
                 System.out.println(" |                     |");
@@ -53,9 +60,11 @@ class DibujoAhorcado{
 
                 }
                 System.out.println("__________");
+                System.out.println(RESET);
                 break;
 
             case 4:
+                System.out.println(GREEN);
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
                 System.out.println(" |                     |");
@@ -65,17 +74,19 @@ class DibujoAhorcado{
                 System.out.println(" |                  -------");
                 System.out.println(" |                     |   ");
                 System.out.println(" |                   / |   ");
+                System.out.println(" |                  /  |   ");
                 System.out.println(" |                 /   |   ");
-                System.out.println(" |                /    |   ");
                 System.out.println(" |                     |   ");
                 for (int j = 0; j< 5; j++) {
                     System.out.println(" |");
 
                 }
                 System.out.println("__________");
+                System.out.println(RESET);
                 break;
 
             case 5:
+                System.out.println(PURPLE);
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
                 System.out.println(" |                     |");
@@ -85,20 +96,19 @@ class DibujoAhorcado{
                 System.out.println(" |                  -------");
                 System.out.println(" |                     |   ");
                 System.out.println(" |                   / | \\ ");
-                System.out.println(" |                  /  |   \\ ");
-                System.out.println(" |                 /   |     \\ ");
+                System.out.println(" |                  /  |  \\ ");
+                System.out.println(" |                 /   |   \\ ");
                 System.out.println(" |                     |   ");
                 for (int j = 0; j< 5; j++) {
                     System.out.println(" |");
 
                 }
                 System.out.println("__________");
-
-
+                System.out.println(RESET);
                 break;
 
             case 6:
-                System.out.println(YELLOW);
+                System.out.println(PURPLE);
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
                 System.out.println(" |                     |");
@@ -108,8 +118,8 @@ class DibujoAhorcado{
                 System.out.println(" |                  -------");
                 System.out.println(" |                     |   ");
                 System.out.println(" |                   / | \\ ");
-                System.out.println(" |                  /  |   \\ ");
-                System.out.println(" |                 /   |     \\ ");
+                System.out.println(" |                  /  |  \\ ");
+                System.out.println(" |                 /   |   \\ ");
                 System.out.println(" |                     |   ");
                 System.out.println(" |                    /  ");
                 System.out.println(" |                   /      ");
@@ -128,13 +138,13 @@ class DibujoAhorcado{
                 System.out.println(" |                     |");
                 System.out.println(" |                     |");
                 System.out.println(" |                  -------");
-                System.out.println(" |                 | X  X  |");
+                System.out.println(" |                 | X   X |");
                 System.out.println(" |                 |   o   |");
                 System.out.println(" |                  -------");
                 System.out.println(" |                     |   ");
-                System.out.println(" |                   / | \\ ");
-                System.out.println(" |                  /  |   \\ ");
-                System.out.println(" |                 /   |     \\ ");
+                System.out.println(" |                   / |\\ ");
+                System.out.println(" |                  /  | \\ ");
+                System.out.println(" |                 /   |  \\ ");
                 System.out.println(" |                     |   ");
                 System.out.println(" |                    / \\");
                 System.out.println(" |                   /   \\  ");
